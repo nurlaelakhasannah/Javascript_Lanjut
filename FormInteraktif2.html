@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form Interaktif</title>
+</head>
+<body>
+	<script language="JavaScript">
+		function cari()
+		{
+			var kata = document.formcari.keyword.value;
+			{
+				var hasil = "http://www.google.com/search?q=" + kata;
+				window.open(hasil, 'google', config='height=500, width=750 scrolbars=yes location=yes')
+			}
+		}
+	</script>
+	<form name="formcari" onsubmit="cari()">Cari pakai Google :
+		<input type="text" name="keyword" size="40">
+		<input type="submit" value="Cari . .  !!">
+	</form>
+</body>
+</html>

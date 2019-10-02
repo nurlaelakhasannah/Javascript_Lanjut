@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Operator dan Statement</title>
+</head>
+<body>
+	<SCRIPT LANGUAGE="JavaScript">
+		function tanya()
+		{
+			var jawab=""
+			var jawab=prompt("Anda senang bikin hompej?")
+			var JAWAB=jawab.toUpperCase()
+			switch(JAWAB)
+			{
+				case "YA": var tampil="Sama dong, saya juga :D"
+					break;
+				case "YUP": var tampil="Sama dong, saya juga :D"
+					break;
+				case "TIDAK": var tampil="Iya euy, bikin suntuk tuh (__)Zz"
+					break;
+				case "NGGAK" : var tampil="Iya euy, bikin suntuk tuh (__)Zz"
+			}
+			alert(tampil)
+		}
+
+	</SCRIPT>
+	<b>Hobi</b>
+	<FORM><INPUT TYPE="button" VALUE="Polling" onClick="tanya()"></FORM>
+</body>
+</html>

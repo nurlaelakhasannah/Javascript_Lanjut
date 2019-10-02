@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>User Defined Classes</title>
+</head>
+<body>
+	<script language="JavaScript">
+		function Die(sides)
+		{
+			this.numSides = sides;
+			this.numRolls = 0;
+			this.Roll = Roll;
+		}
+
+		function Rool()
+		{
+			this.numRolls++;
+			return Math.floor(Math.random()*this.numSides) + 1;
+		}
+	</script>
+</body>
+</html>
